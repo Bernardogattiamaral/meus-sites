@@ -20,7 +20,6 @@ function adicionar() {
     var data = document.getElementById("data")
     var listselect = document.getElementById("lista")
     var jobdata = `${job.value}. Para ${data.value}`
-    //var data = String(data.value)
     var lista = []
     if (job.value.length == 0) {
         window.alert('Favor digitar antes de adicionar uma tarefa')
@@ -35,5 +34,4 @@ function adicionar() {
         listselect.appendChild(flista)
     }
     job.focus()
-    data.focus()
 }
