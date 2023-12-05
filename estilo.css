@@ -26,6 +26,10 @@ header > p {
     text-align: center;
     font-size: 2em;
 }
+
+li:hover {
+    text-decoration: line-through;
+}
 /*header {
     background-image: linear-gradient(to right, #E0342F, #941410);
     margin-left: -10px;

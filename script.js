@@ -5,14 +5,12 @@ function carregar() {
     var agora = new Date()
     var jsdia = agora.getDate() 
     var jsmes = agora.getMonth() + 1
-    var jsano= agora.getFullYear()
+    var jsano = agora.getFullYear()
     if(jsdia < 10) { jsdia = "0" + jsdia}
     if(jsmes < 10) { jsmes = "0" + jsmes}
     dataFormat = jsdia + " / " + jsmes + " / " + jsano;
     document.getElementById("dia").innerHTML += dataFormat;
 }
-//Objeto
- var lista = {texto: aaaaa, data: 10/11/2023, textodata: aaaaaa}
 
  //Adiciona uma tarefa
 function adicionar() {
@@ -32,6 +30,9 @@ function adicionar() {
         var flista = document.createElement('li')
         flista.innerHTML = `${jobdata}`
         listselect.appendChild(flista)
+        function remover() {
+            
+        }
     }
     job.focus()
 }
