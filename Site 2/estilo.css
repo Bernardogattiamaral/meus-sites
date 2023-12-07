@@ -7,3 +7,6 @@ body {
 .option {
     padding: 15px;
 }
+.button {
+    max-width: 1000px;
+}
