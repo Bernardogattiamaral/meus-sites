@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte2);
+}
+html, body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+section.mainscreen {
+    background-color: var(--cor3);
+    height: 100vh;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    font-size: 3em;
+}
+div.title {
+    display: flex;
+    position: relative;
+    top: 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    transform: translateX(-12px);
+}
+div.title span.subtitle {
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 3px;
+    font-family: var(--fonte3);
+    font-size: 2.5em;
+}
+.simple-button {
+    padding: 5px;
+    background-color: var(--cor1);
+    border-radius: 10px;
+    box-shadow: 1px 1px 9px rgba(0, 0, 0, 0.382);
+}
+.simple-button a {
+    text-decoration: none;
+    color: white;
+}
+.simple-button:hover {
+    background-color: var(--cor2);
+    box-shadow: 2px 2px 9px rgba(0, 0, 0, 0.382);
+    cursor: pointer;
+}
+
+menu {
+    position: relative;
+    top: 150px;
+}
+
+menu ul {
+    /*background-color: green; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    list-style-type: none;
+}
+
+menu ul li {
+    
+    text-align: center;
+}
+
+menu ul div.moption {
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+menu ul li > span {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--cor1);
+    min-width: 200px;
+    padding: 10px 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+section.white {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+section.white h2.subtitle {
+
+}
+
+menu ul div.option-text, div.option-img {
+    background-color: white;
+    color: #000;
+    /*display: none;*/
+}
+
+
+.icon {
+    font-size: 1.2em;
+}
+#arrow-sb {
+    position: relative;
+    top: 4px;
+    
+}
+
+
+
+
+
+
+:root {
+    --fonte1: "Montserrat", sans-serif;
+    --fonte2: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonte3: "Great Vibes", cursive;
+
+    --cor1: #30B88F;
+    --cor2: #03d395;
+    --cor3: #3D7866;
+    --cor4: #FA4A19;
+    --cor5: #b33613;
+}

@@ -12,15 +12,15 @@ function Carregar() {
     var EC = document.getElementById('ECtext')
     var WC = document.getElementById('WCtext')
     var SS = document.getElementById('SStext')
-    NCS.addEventListener('mouseenter', EntrarNC)
+    NCS.addEventListener('click', EntrarNC)
     NCS.addEventListener('mouseout', Sair)
-    SCS.addEventListener('mouseenter', EntrarSC)
+    SCS.addEventListener('onclick', EntrarSC)
     SCS.addEventListener('mouseout', Sair)
-    ECS.addEventListener('mouseenter', EntrarEC)
+    ECS.addEventListener('onclick', EntrarEC)
     ECS.addEventListener('mouseout', Sair)
-    WCS.addEventListener('mouseenter', EntrarWC)
+    WCS.addEventListener('onclick', EntrarWC)
     WCS.addEventListener('mouseout', Sair)
-    SS.addEventListener('mouseenter', EntrarSS)
+    SS.addEventListener('onclick', EntrarSS)
 }
 function EntrarNC() {
     NCS.innerHTML = '<img src="imagens/northerncontinent-pq.webp" alt=""></img>'
@@ -47,5 +47,5 @@ function Sair() {
     ECS.innerHTML = '<p>Visualizar mapa</p>'
     WCS.innerHTML = ''
     WCS.innerHTML = '<p>Visualizar mapa</p>'
-    SSS.innerHTML = ''
+    SSS.innerHTML = '' 
 }

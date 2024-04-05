@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte2);
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+section.mainscreen {
+    background-color: var(--cor3);
+    height: 100vh;
+}
+
+h1 {
+    font-family: var(--fonte1);
+    font-size: 2.5em;
+    text-align: center;
+}
+div.title {
+    display: flex;
+    position: relative;
+    top: 150px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    transform: translateX(-12px);
+}
+
+div.title p.subtitle {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 3px;
+    font-family: var(--fonte3);
+    font-size: 1.7em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --fonte1: "Montserrat", sans-serif;
+    --fonte2: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    --fonte3: "Great Vibes", cursive;
+
+    --cor1: #30B88F;
+    --cor2: #03d395;
+    --cor3: #3D7866;
+    --cor4: #FA4A19;
+    --cor5: #b33613;
+}
