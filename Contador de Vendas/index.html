@@ -17,5 +17,71 @@
             <p class="subtitle">Desenvolvido por Bernardo Amaral</p>
         </div>
     </section>
+
+    <section class="product-form">
+        <h2>Preencha as informações sobre o produto</h2>
+        <div class="form">
+            <form action="" method="post" autocomplete="on">
+                <div>
+                    <label for="productname">Nome do Produto</label>
+                    <input type="text" name="productname" id="productname" required autocomplete="name">
+                </div>
+                <div>
+                    <p>Preços dos produto</p>
+                    <label for="productprice1">Preço 1</label>
+                    <input type="number" name="productprice1" id="productprice1" required min="0" placeholder="Somente o número"> <br>
+                    <label for="productprice2">Preço 2</label>
+                    <input type="number" name="productprice2" id="productprice2" min="0" placeholder="Somente o número">
+                </div>
+                <div>
+                    <label for="producttotal">Quantidade Total</label>
+                    <input type="number" name="producttotal" id="producttotal" min="1" max="999">
+                </div>
+                <div>
+                    <p>Opções</p>
+                    <label for="product1">Opção 1</label>
+                    <input type="text" name="product1" id="product1" required maxlength="20">
+
+                    <label for="product2">Opção 2</label>
+                    <input type="text" name="product2" id="product2" maxlength="20">
+
+                    <label for="product3">Opção 3</label>
+                    <input type="text" name="product3" id="product3" maxlength="20">
+
+                    <label for="product4">Opção 4</label>
+                    <input type="text" name="product4" id="product4" maxlength="20">
+
+                    <label for="product5">Opção 5</label>
+                    <input type="text" name="product5" id="product5" maxlength="20">
+
+                    <label for="product6">Opção 6</label>
+                    <input type="text" name="product6" id="product6" maxlength="20">
+
+                    <label for="product7">Opção 7</label>
+                    <input type="text" name="product7" id="product7" maxlength="20">
+
+                    <label for="product8">Opção 8</label>
+                    <input type="text" name="product8" id="product8" maxlength="20">
+                </div>
+                <input type="button" value="Cadastrar Produto" onclick="cadastrarproduto()" class="submit-button">
+            </form>
+        </div>
+    </section>
+    <script>
+        var product_n = document.getElementById("productname")
+        var product_p1 = document.getElementById("productprice1")
+        var product_p2 = document.getElementById("productprice2")
+        var product_total = document.getElementById("producttotal")
+        var product1 = document.getElementById("product1")
+        var product2 = document.getElementById("product2")
+        var product3 = document.getElementById("product3")
+        var product4 = document.getElementById("product4")
+        var product5 = document.getElementById("product5")
+        var product6 = document.getElementById("product6")
+        var product7 = document.getElementById("product7")
+        var product8 = document.getElementById("product8")
+
+        function
+    </script>
 </body>
 </html>
